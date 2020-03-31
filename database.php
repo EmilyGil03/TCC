@@ -2,7 +2,7 @@
 //Código para criar database
 $servidor = "localhost";
 $usuario = "root";
-$senha = "minas";//minas
+$senha = "";//minas
 
 $conexao = mysqli_connect($servidor, $usuario, $senha);
 

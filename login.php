@@ -11,7 +11,7 @@
 
         if(mysqli_num_rows($resultado) == 1){
             $_SESSION["nome"] = $name;
-            header("Location:index.php");
+            header("Location:home.php");
         }
         else{
             echo "<script>alert('Login e/ou senha incorretos!')</script>";
@@ -40,7 +40,7 @@
                 <div class="signin-content">
                     <div class="signin-image">
                         <figure><img src="images/signin-image.jpg" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link">Crie uma conta</a>
+                        <a href="registro.php" class="signup-image-link">Crie uma conta</a>
                     </div>
 
                     <div class="signin-form">
@@ -64,10 +64,10 @@
             </div>
         </section>
 
-    </div>
 
     <!-- JS -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
-</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</body>
 </html>

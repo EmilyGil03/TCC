@@ -74,12 +74,13 @@
                     </div>
                     <div class="signup-image">
                         <figure><img src="images/signup-image.jpg" alt="sing up image"></figure>
-                        <a href="#" class="signup-image-link">Já possuo um cadastro</a>
+                        <a href="login.php" class="signup-image-link">Já possuo um cadastro</a>
                     </div>
                 </div>
             </div>
         </section>
         <script src="vendor/jquery/jquery.min.js"></script>
     <script src="js/main.js"></script>
+
 </body><!-- This templates was made by Colorlib (https://colorlib.com) -->
 </html>
